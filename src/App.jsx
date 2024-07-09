@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import Informacao from "./components/informacao/informacao";
 import Informacoes from "./components/informacoes/informacaoes";
 import OQueEOCafe from "./components/OQueEOCafe/OQueEOCafe";
+import Sobre from "./components/sobre/sobre";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <BomCafe/>
       <Informacoes/>
       <OQueEOCafe/>
+      <Sobre/>
     </>
   )
 }
