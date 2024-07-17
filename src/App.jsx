@@ -6,6 +6,7 @@ import Horarios from "./components/horarios/horarios";
 import Informacao from "./components/informacao/informacao";
 import Informacoes from "./components/informacoes/informacaoes";
 import OQueEOCafe from "./components/OQueEOCafe/OQueEOCafe";
+import Rodape from "./components/rodape/rodape";
 import Sobre from "./components/sobre/sobre";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Sobre/>
       <Contato/>
       <Horarios/>
+      <Rodape/>
     </>
   )
 }
